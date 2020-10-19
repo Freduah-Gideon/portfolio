@@ -25,20 +25,24 @@
         <nav class="nav toggleNav" id='nav'>
             <p class="close" onclick="navToggleFunction()">&times;</p>
             <ul class="navUl">
-                <li class="navLi"><a onclick="document.getElementById('nav').classList.add('toggleNav')" href='#home'>Home</a></li>
-                <li class="navLi"><a onclick="document.getElementById('nav').classList.add('toggleNav')" href="#services">My Services</a></li>
-                <li class="navLi"><a onclick="document.getElementById('nav').classList.add('toggleNav')" href="#about">About Me</a></li>
-                <li class="navLi"><a onclick="document.getElementById('nav').classList.add('toggleNav')" href="#work">My work</a></li>
+                <li class="navLi"><a onclick="document.getElementById('nav').classList.add('toggleNav')"
+                        href='#home'>Home</a></li>
+                <li class="navLi"><a onclick="document.getElementById('nav').classList.add('toggleNav')"
+                        href="#services">My Services</a></li>
+                <li class="navLi"><a onclick="document.getElementById('nav').classList.add('toggleNav')"
+                        href="#about">About Me</a></li>
+                <li class="navLi"><a onclick="document.getElementById('nav').classList.add('toggleNav')" href="#work">My
+                        work</a></li>
             </ul>
         </nav>
     </header>
-<script>
-    const navToggleFunction = ()=>{
-        const nav = document.getElementById('nav')
-        nav.style.transition='1s'
-        nav.classList.toggle('toggleNav')
-    }
-</script>
+    <script>
+        const navToggleFunction = () => {
+            const nav = document.getElementById('nav')
+            nav.style.transition = '1s'
+            nav.classList.toggle('toggleNav')
+        }
+    </script>
     <section class="intro" id="home">
         <h1 class="title introText">
             Hi, I am <br><strong>Gideon Freduah</strong>
@@ -57,7 +61,9 @@
             <div class="service">
                 <h3 class="about">Design and Development</h3>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse obcaecati modi odit consequuntur animi minus veritatis, expedita, at perferendis commodi in cum! Consequuntur illo ad esse, nemo veniam dolores impedit!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse obcaecati modi odit consequuntur
+                    animi minus veritatis, expedita, at perferendis commodi in cum! Consequuntur illo ad esse, nemo
+                    veniam dolores impedit!
                 </p>
             </div>
 
@@ -65,14 +71,18 @@
             <div class="service">
                 <h3 class="about">E-Commerce</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem vero quia nisi ipsam ratione perspiciatis repellendus quasi assumenda necessitatibus doloribus nemo deserunt iste, libero magnam dicta, consectetur perferendis commodi tempora.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem vero quia nisi ipsam
+                    ratione perspiciatis repellendus quasi assumenda necessitatibus doloribus nemo deserunt iste, libero
+                    magnam dicta, consectetur perferendis commodi tempora.
                 </p>
             </div>
 
             <div class="service">
                 <h3 class="about">WordPress</h3>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex praesentium tenetur, cum rem commodi delectus architecto a eum, voluptatum quam officiis at nostrum dolorum provident, quod unde eaque odio alias.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex praesentium tenetur, cum rem commodi
+                    delectus architecto a eum, voluptatum quam officiis at nostrum dolorum provident, quod unde eaque
+                    odio alias.
                 </p>
             </div>
         </div>
@@ -99,8 +109,8 @@
                 <strong>Javascript</strong>,
                 <strong>GIT/Github</strong>,
                 <strong>React.js</strong>,
-              <strong>WordPress</strong>,
-              <strong>Python/Django</strong>
+                <strong>WordPress</strong>,
+                <strong>Python/Django</strong>
             </p>
         </div>
         <script>
@@ -122,7 +132,23 @@
         <div class="portfolio">
             <a href="" class="portfolioItem">
                 <img src="airbnb.png" alt="">
-                <p class="portfolioItemText">Airbnb clone built with REACT.js/CSS/HTML</p>
+                <p class="portfolioItemText">Airbnb clone built with REACT.js</p>
+            </a>
+            <a href="" class="portfolioItem">
+                <img src="logo.svg" alt="">
+                <p class="portfolioItemText">Kempinksi Clone Built With React.js</p>
+            </a>
+            <a href="" class="portfolioItem">
+                <img src="amazon.png" alt="">
+                <p class="portfolioItemText">Amazon Clone Built With React.js</p>
+            </a>
+            <a href="" class="portfolioItem">
+                <img src="google.png" alt="" style="margin-top: 90px;">
+                <p class="portfolioItemText">Google Clone Built With React.js</p>
+            </a>
+            <a href="" class="portfolioItem">
+                <img src="jumia-logo.jpg" alt="">
+                <p class="portfolioItemText">Jumia Clone Built With React.js</p>
             </a>
         </div>
     </section>

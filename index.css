@@ -375,6 +375,7 @@ section{
     position: relative;
     overflow: hidden;
     border:1px solid wheat;
+    background-color: rgb(37, 31, 31);
     transition: 1s;
 }
 .portfolioItemText{
@@ -391,10 +392,12 @@ section{
     opacity: 0;
     font-weight: bold;
     letter-spacing: 1.5px;
+
     font-size: 15px;
 }
 .portfolioItem > img{
     transition: 1s;
+    box-shadow: none;
 
 }
 .portfolioItem:hover > .portfolioItemText{
@@ -403,7 +406,7 @@ section{
 }
 .portfolioItem:hover > img{
     transform: scale(1.2);
-    opacity: .1;
+    opacity: .05;
 }
 
 .footer{
